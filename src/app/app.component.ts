@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'musicstream-frontend';
+  title = 'Music Stream';
+  count = 0;
+  increment() {
+    this.count++;
+  }
+  decrement() {
+    this.count--;
+  }
+
+
 }
